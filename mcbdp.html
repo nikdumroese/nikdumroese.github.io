@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="Montana Connections Business Development Park">
+    <title>Montana Connections Business Development Park</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700|Open+Sans:400,700" rel="stylesheet">
+    <link href= "css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="vendor/css/bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar-inverse navbar-fixed-top" role="navigation">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navigation" aria-expanded="false">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                    <a class="navbar-brand" href="#"></a>
+                </div>
+                <div class="collapse navbar-collapse" id="navigation">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Advantages<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="http://montanaconnectionspark.com/transportation-distribution">Transportation and Distribution</a></li>
+                                <li><a href="http://montanaconnectionspark.com/infrastructure">Infrastructure</a></li>
+                                <li><a href="http://montanaconnectionspark.com/ftz">Foreign Trade Zone</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="http://montanaconnectionspark.com/community-support">Community Support</a></li>
+                        <li><a href="http://www.bldc.net/data-info/demographics/">Demographics</a></li>
+                        <li><a href="#cs">Case Studies</a></li>
+                        <li><button type="button" id="navbtn" data-toggle="modal" data-target="#signupmodal">Start Here</button></li>
+                    </ul>
+        </nav>
+    </header>
+    <div class="hero">
+        <div class="container-fluid">
+            <div class="col-xs-12">
+                <h1 id="startchange">We are the place to grow your business</h1>
+                <h3>Discover Butte-Silver Bow incentives that boost profit</h3>
+                <div id="herobuttondiv">
+                    <button type="button" data-toggle="modal" data-target="#signupmodal">Contact Us Today</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="signupmodal" class="modal fade" role="dialog">
+        <div class="modal-dialog center-block">
+            <!-- Modal content-->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title">Find Out More</h4>
+                </div>
+                <div class="modal-body">
+                    <form class="center-block">
+                        <div class="form-group">
+                            <label for="name" class="col-sm-12">Name</label>
+                            <input class="center-group" type="text" name="name" id="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email" class="col-sm-12">Email</label>
+                            <input type="text" name="email" id="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="tel" class="col-sm-12">Telephone</label>
+                            <input type="tel" name="tel" id="tel">
+                        </div>
+                        <div class="form-group">
+                            <label for="msg" class="col-sm-12">Message</label>
+                            <textarea name="msg" class="col-sm-12" rows="4" columns="8"></textarea>
+                        </div>
+                        <div class="form-group">
+                          <label for="pref" class="col-sm-12">Preferred Method of Communication</label>
+                            <div class="checkbox">
+                                <label>
+                                  <input type="checkbox">
+                                  Email
+                                </label>
+                            </div>
+                            <div class="checkbox">
+                                <label>
+                                  <input type="checkbox">
+                                  Phone
+                                </label>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" id="modalbtn" class="modalclose center-block" data-dismiss="modal">Send</button>
+                </div>
+            </div>
+            <!-- End Modal -->
+        </div>
+    </div>
+    <div class="mapbg">
+        <div class="advantage">
+            <div class="container-fluid" id="#advantages">
+                <div class="col-xs-12">
+                    <h5></h5>
+                    <h2>The intersection of the west</h2>
+                    <p>Welcome to Montana Connections Business Development Park. MCBDP is a collection of affordable business parcels located at the intersection of two major interstates, I-15 and I-90. Oh, and the BNSF and Union Pacific Class I Railway runs through the city. As an economic hub, businesses have no trouble operating from our business park.</p>
+                </div>
+            </div>
+        </div>
+        <div class="map" id="map">
+            <div class="container-fluid">
+                <div class="col-xs-12 text-center">
+                    <iframe id="mapframe" frameborder="0" src=http://buttesilverbow.maps.arcgis.com/apps/View/index.html?appid=8348f0ffd5894c8eb5b183e88737e8d0&extent=-112.7317,45.9611,-112.5998,46.0061></iframe>
+                </div>
+            </div>
+        </div>
+        <div class="mapbtn">
+            <div class="container-fluid">
+                <div class="col-xs-12 col-xl-12 text-center">
+                    <button>Contact Our Parcel Planning Team</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="csall">
+        <div class="cs" id="cs">
+            <div class="container-fluid">
+                <div class="cshead">
+                    <div class="col-xs-12">
+                        <h5>Happening Now:</h5>
+                        <h2>How they grew</h2>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="cs1">
+                        <h5>Montana Craft Malt</h5>
+                        <img src = "assets\mc.png"><br>
+                        <pp>The newest tenant to the Montana Connections Business park is Montana Craft Malt. Breaking ground on a 10,000-ton state of the art craft malting facility, the company chose to locate in Montana Connections because of the strong logistical infrastructure, generous local financial incentives, and Montana Connection’s fantastic transportation links.</pp>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="cs2">
+                        <h5>FedEx Freight</h5>
+                        <img src = "assets\fedex-1.JPG"><br>
+                        <pp>With local incentives from the Butte-Silver Bow local government, FedEx Freight built a 64-door cross dock facility in one of Montana Connections shovel ready parcels. The site has been so successful for FedEx Freight that work on an expansion to their existing facility will begin this summer.</pp>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-sm-4">
+                    <div class="cs3">
+                      <h5>REC Silicon</h5>
+                        <img src = "assets\Butte_6 (2).JPG"><br>
+                        <pp>From their 245-acre parcel within Montana Connections, REC Silicon and their 200 full-time employees produce the world’s purest polysilicon and silicon gases for the global solar and electronics industries. REC, from their world headquarters in Oslo, Norway chose to locate one of their two North American operations in the Montana Connections Park because of the transportation links, cheap land availability, the Port of Montana’s Foreign Trade Zone (FTZ) and generous local incentives. </pp>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="props" id="adv">
+      <div class="propshead">
+        <div class = "col-xs-12">
+            <h2>Why grow in Butte?</h2>
+          </div>
+        </div>
+        <div class="propstop">
+            <div class="container-fluid">
+                <div class="col-xs-2 col-sm-1 text-right">
+                    <span class="lnr lnr-apartment"></span>
+                </div>
+                <div class="col-xs-10 col-sm-5">
+                    <div class="prop1">
+                        <h4>Gateway to the west</h4>
+                        <pp>Within Montana Connections is the Port of Montana, a full service transload, warehouse and distribution facility. The Port is vital not only to many existing businesses within Montana Connections but to the wider region and can help any organization, large or small with their logistics needs.</pp>
+                    </div>
+                </div>
+                <div class="col-xs-2 col-sm-1 text-right">
+                    <span class="lnr lnr-drop"></span>
+                </div>
+                <div class="col-xs-10 col-sm-5">
+                    <div class="prop3">
+                        <h4>Amazing Infrastructure</h4>
+                        <pp>Montana Connections Industrial Park land can be purchased for $2,000 / acre sold in parcels as large as 250 acres or as small as 10. Currently, we have the ability to provide industrial water at 4 million GPD, wastewater at 2 million GPD, natural gas, three phase electrical power, potable water infrastructure and high-speed fiber coming soon, and extended rail service throughout the industrial park in the near future.
+                        </pp>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="propsbtm">
+            <div class="container-fluid">
+                <div class="col-xs-2 col-sm-1 text-right">
+                    <span class="lnr lnr-graduation-hat"></span>
+                </div>
+                <div class="col-xs-10 col-sm-5">
+                    <div class="prop2">
+                        <h4>Driven and talented workforce</h4>
+                        <pp>Southwest Montana is home to a highly skilled workforce, whether you need aerospace welders, experienced laborers, a mechanical engineer or ambitious truck drivers: southwest Montana has them all. Butte can also boast one of the world’s preeminent science and engineering colleges, Montana Tech, and a first-rate technical college in Highlands College.
+</pp>
+                    </div>
+                </div>
+                <div class="col-xs-2 col-sm-1 text-right">
+                    <span class="lnr lnr-star"></span>
+                </div>
+                <div class="col-xs-10 col-sm-5">
+                    <div class="prop4">
+                        <h4>Business friendly butte</h4>
+                        <pp>Montana Connections Industrial Park is able to provide generous local tax incentives to business and organization interested in relocating or starting their businesses in Southwest Montana. The state of Montana offers numerous workforce, planning and infrastructure incentives that can be explored for any business to determine eligibility by Montana Connections team.
+                        </pp>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="discover">
+        <div class="discovertext">
+            <div class="container-fluid">
+                <div class="col-xs-12">
+                    <h5>Get started in Southwest Montana</h5>
+                    <h2>Discover why Butte is right for business </h2>
+                    <pp>Talk to our development experts today</pp>
+                    <div class="discoverbuttondiv">
+                        <h3 id="discphone">406.490.5768</h3>
+                        <button id="discbtn" type="button" data-toggle="modal" data-target="#signupmodal">Find out More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class = "photobreak">
+      <div class = "container-fluid hidden-xs">
+          <div class = "col-sm-3 pb1">
+          </div>
+          <div class = "col-sm-3 pb2">
+          </div>
+          <div class = "col-sm-3 pb3">
+          </div>
+          <div class = "col-sm-3 pb4">
+          </div>
+        </div>
+      </div>
+    <footer>
+        <div class="footer1">
+            <div class="container-fluid">
+                <div class="ftrtxt">
+                    <div class="ftrright">
+                        <div class="col-sm-3 col-xs-6 fba">
+                            <h4>Business Advantages</h4>
+                            <p>Transportation</p>
+                            <p>Distribution</p>
+                            <p>Infrastructure</p>
+                            <p>Foreign Trade Zone</p>
+                        </div>
+                        <div class="col-sm-3 col-xs-6 fcom">
+                            <h4>Community</h4>
+                            <p>Government Support</p>
+                            <p>Butte Demographics</p>
+                            <p>Property Map</p>
+                        </div>
+                    </div>
+                    <div class="ftrleft">
+                        <div class="col-sm-3 col-xs-6 fport">
+                            <h4>Montana Connections</h4>
+                            <p>About Us</p>
+                            <p>Company Directory</p>
+                            <p>Recent News</p>
+                            <p>Port of Montana</p>
+                        </div>
+                        <div class="col-sm-3 col-xs-6 fcont">
+                            <h4>Contact</h4>
+                            <p>406.490.5768</p>
+                            <p>&mdash;</p>
+                            <p>krosa@bsb.mt.gov</p>
+                            <p>&mdash;</p>
+                            <p>155 West Granite St.</p>
+                            <p>Butte, MT 59701</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/mcbdp.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+
+</html>
