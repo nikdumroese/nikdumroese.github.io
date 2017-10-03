@@ -1,0 +1,175 @@
+
+.head h1 {
+  font-family: "Raleway", sans-serif;
+  margin-top: 3em;
+  font-weight: 800;
+  font-size: 90px;
+  margin-left: 8%;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+.head button {
+  margin-top: 22em;
+  background-color: rgba(0,0,0,0);
+  border-color: black;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  padding: 10px 20px 10px 20px;
+}
+.head {
+  margin-bottom: 25em;
+}
+#startchange {
+  margin-left: 25%;
+}
+.about h3 {
+  margin-left: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+.about p {
+  margin-left: 16%;
+  font-family: "Raleway", sans-serif;
+}
+.resume {
+  padding-top: 35px;
+  margin-bottom: 100px
+}
+.resume h2 {
+  margin-left: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+.resume h3 {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.resume h4 {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.resume p {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5em;
+}
+.navbar-default {
+  font-family: "Raleway", sans-serif !important;
+  text-transform: uppercase;
+  color: black;
+  position: fixed;
+}
+.navbar-default .navbar-nav > li > a {
+  letter-spacing: 2px;
+}
+span {
+  letter-spacing: 1.5px;
+}
+.skills{
+  padding-top: 35px;
+  margin-bottom: 100px;
+}
+.skills h2 {
+  margin-left: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+
+.skillstable {
+  margin-left: 16%;
+}
+.skills h3 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.skills h4 {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.skills p {
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}
+.skills-left {
+  padding-left: 0;
+}
+.contact {
+  padding-top: 35px;
+  margin-bottom: 100px;
+}
+.contact h2 {
+  margin-left: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+}
+.contact h3 {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.contact h4 {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.contact p {
+  margin-left: 16%;
+  margin-right: 16%;
+  font-family: "Raleway", sans-serif;
+  font-weight: 500;
+}
+.contact a {
+  color: black;
+  display: inline-block;
+}
+.contact a:hover {
+  color: #fbff03;
+}
+.icons {
+  margin-left: 16%;
+}
+a .fa.fa-twitter.fa-2x {
+  padding-left: 20px;
+}
+@media (min-width: 768px) {
+  .navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+@media (min-width: 0px) and (max-width:575px){
+  #startchange {
+    font-size: 35px;
+    margin-left:16%;
+  }
+  .head {
+    margin-bottom: 30px;
+  }
+}
+@media (min-width: 320px) and (max-width: 990px) {
+  .head button {
+    margin-top:0px;
+    margin-left: 18%;
+    margin-right: auto;
+    object-position: center;
+  }
+  #startchange {
+    margin-bottom: 2em;
+    margin-left: 16%;
+  }
