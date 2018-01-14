@@ -1,4 +1,11 @@
 jQuery(document).ready(function($) {
+
+  // $(".collapse").click(function(){
+  //  console.log("nav clicked, hiding");
+  //  $("#bs-example-navbar-collapse-1").hide();
+// });
+
+
       var scroll_start = 0;
       var startchange = $('#startchange');
       var offset = startchange.offset();
@@ -8,7 +15,7 @@ jQuery(document).ready(function($) {
               if (scroll_start > offset.top) {
                   $("nav.navbar-default.navbar-fixed-top").css('background-color', 'white', '!important');
               } else {
-                  $('nav.navbar-default.navbar-fixed-top').css('background-color', 'transparent', '!important');
+                  $('nav.navbar-default.navbar-fixed-top').css('background-color', 'white', '!important');
               }
           });
       }
