@@ -22,20 +22,20 @@ html,body{
   padding: 10px 20px 10px 20px;
 }
 .head {
-  margin-bottom: 25em;
+  margin-bottom: 1em;
 }
 #startchange {
-  margin-left: 25%;
+  margin-left: 16%;
 }
 .about h3 {
   margin-left: 16%;
+  margin-right: 16%;
   font-family: "Raleway", sans-serif;
-  font-weight: 800;
+  font-weight: 500;
+  line-height: 1.5;
+  padding-bottom: 8em;
 }
-.about p {
-  margin-left: 16%;
-  font-family: "Raleway", sans-serif;
-}
+
 .resume {
   padding-top: 35px;
   margin-bottom: 100px
@@ -64,6 +64,17 @@ html,body{
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5em;
+}
+
+.resume button {
+  margin-top: 2em;
+  background-color: rgba(0,0,0,0);
+  border-color: black;
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: black;
+  font-weight: 800;
+  padding: 10px 20px 10px 20px;
 }
 .navbar-default {
   font-family: "Raleway", sans-serif !important;
@@ -136,6 +147,7 @@ span {
 .contact a {
   color: black;
   display: inline-block;
+  padding-right: 1em;
 }
 .contact a:hover {
   color: #fbff03;
@@ -143,9 +155,7 @@ span {
 .icons {
   margin-left: 16%;
 }
-a .fa.fa-twitter.fa-2x {
-  padding-left: 20px;
-}
+
 @media (min-width: 768px) {
   .navbar-nav.navbar-center {
     position: absolute;
